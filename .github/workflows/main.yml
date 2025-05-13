@@ -1,0 +1,9 @@
+name : mainworkflow
+on: push
+jobs :
+  tasks :
+    runs-on : ubuntu-latest
+    steps :
+      - name : print a message
+        run : echo "push successful"
+      
